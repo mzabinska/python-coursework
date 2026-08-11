@@ -39,7 +39,23 @@ The program supports different product types, deliveries, stock withdrawals and 
 # Technologies
 
 - Python
+## Running the Programs
 
+Python 3.10 or newer is recommended.
+
+Run the economic report:
+
+```bash
+python economic_report.py
+```
+
+Run the inventory management system:
+
+```bash
+python inventory_system.py
+```
+
+No external packages are required.
 # About
 
 These programs were created as university coursework and are included here as examples of my Python programming practice.
