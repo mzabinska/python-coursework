@@ -171,4 +171,5 @@ def uruchom_program():
     magazyn.raport()
 
 
-uruchom_program()
+if __name__ == "__main__":
+    uruchom_program()
