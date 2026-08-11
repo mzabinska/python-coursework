@@ -95,16 +95,16 @@ def zapisz_raport(tresc: str, nazwa_pliku: str = "raport_ekonomiczny.txt") -> No
         plik.write(tresc)
 
 
-produkty: list = [
-    {"nazwa": "  kawa_rozpuszczalna  ", "typ": "towar", "cena": 12.50, "sprzedaz": 80, "marza": 0.30},
-    {"nazwa": "kurs_excela", "typ": "usluga edukacyjna", "cena": 180.00, "sprzedaz": 18, "marza": 0.22},
-    {"nazwa": "notatnik_finansowy", "typ": "towar", "cena": 25.00, "sprzedaz": 45, "marza": 0.08},
-    {"nazwa": "konsultacja_biznesowa", "typ": "usluga doradcza", "cena": 250.00, "sprzedaz": 8, "marza": -0.02},
-]
+if __name__ == "__main__":
+    produkty: list = [
+        {"nazwa": "  kawa_rozpuszczalna  ", "typ": "towar", "cena": 12.50, "sprzedaz": 80, "marza": 0.30},
+        {"nazwa": "kurs_excela", "typ": "usluga edukacyjna", "cena": 180.00, "sprzedaz": 18, "marza": 0.22},
+        {"nazwa": "notatnik_finansowy", "typ": "towar", "cena": 25.00, "sprzedaz": 45, "marza": 0.08},
+        {"nazwa": "konsultacja_biznesowa", "typ": "usluga doradcza", "cena": 250.00, "sprzedaz": 8, "marza": -0.02},
+    ]
 
-raport_koncowy = przygotuj_raport("  sklep_SGH  ", produkty, waluta="PLN")
-# argument nazwany funkcji: waluta="PLN"
+    raport_koncowy = przygotuj_raport("  sklep_SGH  ", produkty, waluta="PLN")
 
-print(raport_koncowy)
+    print(raport_koncowy)
 
-zapisz_raport(raport_koncowy)
+    zapisz_raport(raport_koncowy)
