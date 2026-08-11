@@ -1,5 +1,5 @@
 """
- PD2 - program obsługujący magazyn w przedsiębiorstwie handlowym
+Program obsługujący magazyn w przedsiębiorstwie handlowym
 
 Funkcje programu:
  1. Tworzenie różnych typów produktów przechowywanych w magazynie
