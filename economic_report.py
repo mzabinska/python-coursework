@@ -1,4 +1,4 @@
-# PD1 Maja Żabińska
+
 # Raport ekonomiczny sklepiku uczelnianego
 
 def popraw_nazwe(nazwa: str) -> str:
